@@ -1,0 +1,15 @@
+{
+  "name": "pw-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js",
+    "fetch": "node fetch.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5"
+  }
+}
