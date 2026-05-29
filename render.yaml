@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: pw-backend
+    env: node
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_KEY
+        sync: false
+      - key: PW_TOKEN
+        sync: false
+      - key: CLIENT_ID
+        value: 5eb393ee95fab7468a79d189
+      - key: BATCH_ID
+        value: 6779346f920e596fe7f0e247
+      - key: COHORT_ID
+        value: 634fd2463ce3d7001c50798a
+      - key: USER_ID
+        value: 6571dfac553f8b00182f26da
